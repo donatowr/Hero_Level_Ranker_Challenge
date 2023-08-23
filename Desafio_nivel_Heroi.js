@@ -1,24 +1,28 @@
 
-let nomeJogador = "Wellington";
 
+//Criação da Variavél nome do jogador
+let nomeJogador = "Wellington";
+//Criação da variavél quantidade de Experiancia (XP)
 let quantidadeXP = 6001;
- 
-if(quantidadeXP <= 1000){
+
+//Condicionais para declaração de nivel do Herói
+if (quantidadeXP <= 1000) {
     console.log(`"O Herói de nome ${nomeJogador} está no nível de Ferro"`);
-}else if(quantidadeXP > 1000 && quantidadeXP <=2000){
+} else if (quantidadeXP > 1000 && quantidadeXP <= 2000) {
     console.log(`"O Herói de nome ${nomeJogador} está no nível de Bronze"`);
-}else if(quantidadeXP > 2000 && quantidadeXP <=5000){
+} else if (quantidadeXP > 2000 && quantidadeXP <= 5000) {
     console.log(`"O Herói de nome ${nomeJogador} está no nível de Prata"`);
-}else if(quantidadeXP > 5000 && quantidadeXP <=6000){
+} else if (quantidadeXP > 5000 && quantidadeXP <= 6000) {
     console.log(`"O Herói de nome ${nomeJogador} está no nível de Ouro"`);
-}else if(quantidadeXP > 6000 && quantidadeXP <=7000){
+} else if (quantidadeXP > 6000 && quantidadeXP <= 7000) {
     console.log(`"O Herói de nome ${nomeJogador} está no nível de Diamante"`);
-}else if(quantidadeXP > 7000 && quantidadeXP <=8000){
+} else if (quantidadeXP > 7000 && quantidadeXP <= 8000) {
     console.log(`"O Herói de nome ${nomeJogador} está no nível de Platina"`);
-}else if(quantidadeXP > 8000 && quantidadeXP <=9000){
+} else if (quantidadeXP > 8000 && quantidadeXP <= 9000) {
     console.log(`"O Herói de nome ${nomeJogador} está no nível de Ascendente"`);
-}else if(quantidadeXP > 9000 && quantidadeXP <=10000){
+} else if (quantidadeXP > 9000 && quantidadeXP <= 10000) {
     console.log(`"O Herói de nome ${nomeJogador} está no nível de Imortal"`);
-}else{(quantidadeXP > 10000)
+} else {
+    (quantidadeXP > 10000)
     console.log(`"O Herói de nome ${nomeJogador} está no nível de Radiante"`);
 }
